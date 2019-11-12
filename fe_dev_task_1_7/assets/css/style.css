@@ -1,6 +1,6 @@
 @import url('https://fonts.google.com/specimen/Exo?selection.family=Exo');
 
-h1, h2, html{
+h1, h2, html {
   margin: 0;
   padding: 0;
   display: flex;
@@ -8,55 +8,55 @@ h1, h2, html{
   justify-content: center;
 }
 
-header: {
+header {
   display:flex;
   flex-direction:row;
   justify-content: space-between
 }
 
-body{
+body {
   background-color: #C2C2C2
 }
 
-body{
+body {
   font-family: 'Exo', Serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.6;
 }
 
-h1{
+h1 {
   font-size: 30px;
   font-weight:700;
 }
 
-h2{
+h2 {
   font-size: 24px;
   font-weight:700;
 }
 
-h3{
+h3 {
   font-size: 18px;
   font-weight:700;
 }
 
-a{
+a {
   color: #292970
 }
 
-a:visited{
+a:visited {
   color: #05676E/*Link Accessed*/
 }
 
-a:hover, a:focus{
+a:hover, a:focus {
   text-decoration: none;/*Sans underlining when hovering over link(s)*/
 }
 
-a:active{
+a:active {
   color:#489C79;/*Link selected*/
 }
 
-button{
+button {
   border: none;/*Overwrites defaults / resets border*/
   font-family: inherit;/*Uses font outer container*/
   background-color: #292970;/*Background/font color; text decoration (underline, etc.) for website button*/
@@ -67,8 +67,9 @@ button{
   border-radius: 3px;
   border-bottom: 2px solid rgba(0,0,0,0.3);/*Button bottom border set at 2px width; solid; RGBA color format*/
 }
-button:hover, button:focus{
-  cursor: pointer; /*Hand morphs when hovering over button*/
+
+button:hover, button:focus {
+  cursor: pointer; /*Cursor morphs into a hand when hovering over button*/
   opacity: 0.7;/*Opacity reduced down to 80%*/
 }
 
@@ -85,7 +86,7 @@ footer img {
   padding: 10px 8px;
 }
 
-footer  {
+footer {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -95,7 +96,7 @@ footer  {
   text-align: right;
 }
 
-.button__secondary{
+.button__secondary {
   background-color: #A0522D;
   color: #292970;
 }
@@ -130,7 +131,7 @@ footer  {
   margin-left: 15px;
 }
 
-.navigation-list__item--active{
+.navigation-list__item--active {
   text-decoration: none;
 }
 
@@ -142,16 +143,12 @@ footer  {
 }
 
 .page-header {
-  display: inline-block;
-  width: 100%;
-  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.page-header__item {
-  flex: 0 1 200px;
-}
-
-.page-header__item: last-child {
+.page-header__item last-child {
   flex-grow: 1;
   text-align: right;
 }
