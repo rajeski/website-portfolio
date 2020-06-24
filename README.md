@@ -1,7 +1,7 @@
 # Website
 
-## Mock portfolio website project 
+## Mock portfolio website project - 
 
 ### CSS
 ### HTML 
-# JS
+### JS
